@@ -20,3 +20,5 @@ print("---람다함수사용---")
 iterL = filter(lambda x:x>20, lst)
 for item in iterL:
     print("item:{0}".format(item))
+
+print("aaa")
