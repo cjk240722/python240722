@@ -10,4 +10,10 @@ f = open("demo.txt", "rt", encoding="utf-8")
 result = f.read()
 print(result)
 
+#리스트로받기
+f.seek(0)
+
+lst = f.readlines()
+print(lst)
+
 f.close()
